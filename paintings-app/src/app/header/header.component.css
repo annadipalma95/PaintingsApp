@@ -1,0 +1,47 @@
+nav {
+	background-color: black;
+}
+
+.neonText {
+	color: #fff;
+	text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #f09, 0 0 82px #f09, 0 0 92px #f09, 0 0 102px #f09,
+		0 0 151px #f09;
+}
+
+h1,
+h2 {
+	text-align: center;
+	font-weight: 100;
+	line-height: 1;
+}
+
+h1 {
+	font-size: 3rem;
+	animation: pulsate 0.5s ease-in-out infinite alternate;
+}
+
+h2 {
+	font-size: 3rem;
+}
+
+@keyframes pulsate {
+	100% {
+		text-shadow: 0 0 4px #f09, 0 0 11px #f09, 0 0 19px #f09, 0 0 40px #f09, 0 0 80px #f09, 0 0 90px #f09,
+			0 0 100px #f09, 0 0 150px #f09;
+	}
+
+	0% {
+		text-shadow: 0 0 4px #fff, 0 0 10px #fff, 0 0 18px #fff, 0 0 38px #f09, 0 0 73px #f09, 0 0 80px #f09,
+			0 0 94px #f09, 0 0 140px #f09;
+	}
+}
+
+a:link, a:visited {
+    color:plum;
+    font-size: 15px;
+}
+
+a:hover {
+    color:#f09;
+    text-shadow: 2px 2px 2px white;
+}

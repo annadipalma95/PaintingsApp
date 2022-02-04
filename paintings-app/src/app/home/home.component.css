@@ -1,0 +1,21 @@
+#blackBox {
+	background-color: black;
+}
+img {
+	width: 400px;
+}
+h2 {
+    background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	font-size: 2rem;
+	line-height: 1.5;
+	margin: 10px 0;
+}
+
+#section2 h1 {
+	color:plum;
+	text-shadow: 3px 3px 3px aquamarine;
+}
