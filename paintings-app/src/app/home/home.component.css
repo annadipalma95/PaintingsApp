@@ -19,3 +19,8 @@ h2 {
 	color:plum;
 	text-shadow: 3px 3px 3px aquamarine;
 }
+#section2 div img {
+	height: 300px;
+	width: 250px;
+	box-shadow: 3px 3px 4px rgb(161, 159, 159);
+}
