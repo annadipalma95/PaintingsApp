@@ -25,6 +25,10 @@ h2 {
 	box-shadow: 3px 3px 4px rgb(161, 159, 159);
 }
 
+#section2 div img:hover {
+    transform: translate(30px, 30px);
+}
+
 .btn {
 	position: relative;
 	  background: linear-gradient(-90deg, #EE7752, #E73C7E, #23A6D5, #23D5AB, #EE7752);
@@ -75,4 +79,33 @@ h2 {
 	height: 100%;
 	filter: blur(1rem);
   }
+
+  /*Risoluzione mobile*/
+@media screen and (max-width:576px) {
+	#rowBox div {
+		justify-content: center;
+		margin:auto !important
+	}
+	img {
+		width: 200px;
+		height: 200px;
+		margin: auto !important
+	}
+	h1,h2 {
+		font-size: 1.3rem;
+	}
+
+
+	#section2 h1 {
+		font-size: 2rem !important
+	}
+	#section2 div img {
+		margin-left: 10px !important;
+		display: flex;
+		justify-content: center !important;
+		height: 150px;
+		width: 150px;
+	}
+	
+}
   
