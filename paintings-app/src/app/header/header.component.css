@@ -37,17 +37,24 @@ h2 {
 	}
 }
 
-a:link, a:visited {
-    color:plum;
-    font-size: 15px;
+a:link,
+a:visited {
+	color: plum;
+	font-size: 15px;
 }
 
 a:hover {
-    color:#f09;
-    text-shadow: 2px 2px 2px white;
+	color: #f09;
+	text-shadow: 2px 2px 2px white;
 }
- /*Risoluzione mobile*/
- @media screen and (max-width:576px) {
+
+@media screen and (max-width: 768px) {
+	#navbarText {
+		margin-top: auto !important
+	}
+}
+
+@media screen and (max-width: 576px) {
 	h1 {
 		font-size: 2rem;
 	}
@@ -55,4 +62,4 @@ a:hover {
 		font-size: 0.8rem;
 		margin-bottom: 0.5rem;
 	}
- }
+}

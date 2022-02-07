@@ -79,8 +79,19 @@ h2 {
 	height: 100%;
 	filter: blur(1rem);
   }
+  
+  @media screen and (max-width:768px) {
+	#rowBox :nth-child(2) {
+		margin: auto !important
+	}
 
-  /*Risoluzione mobile*/
+	img {
+		width: 200px !important;
+		height: 200px !important;
+		margin: auto !important
+	}
+}
+
 @media screen and (max-width:576px) {
 	#rowBox div {
 		justify-content: center;
@@ -108,4 +119,6 @@ h2 {
 	}
 	
 }
+
+
   
